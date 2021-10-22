@@ -17,8 +17,11 @@ html{
 }
 
 h1{
-    color: white;
     text-align: center;
+}
+
+#AboutUS .container h1{
+    font-style: italic;
 }
 
 header{
@@ -33,7 +36,6 @@ header{
 
 .dypiemr{
     padding: 20px;
-    
 }
 
 #menu li{
@@ -43,9 +45,13 @@ header{
 }
 
 #menu li a{
-    color: #fff;
+    color: blue;
     text-decoration: none;
     font-size: 15px;
+}
+
+#menu li a:hover{
+    color: red;
 }
 
 section{
@@ -55,22 +61,15 @@ section{
     position: relative;
 }
 
-#home{
-    background-color: #72ba6e;
+.text{
+    background-color: seagreen;
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    text-align: center;
+    color: pink;
 }
 
-#HindiOCR{
-    background-color: steelblue;
-}
-
-#AboutUs{
-    background-color: rgb(211, 125, 91);
-    height: 115vh;
-}
-
-#contact{
-    background-color: thistle;
-}
 
 *{
     margin: 0;
@@ -87,6 +86,11 @@ section{
     text-align: center;
 }
 
+section{
+    background-color: gray;
+}
+
+
 .team{
     display: flex;
     text-align: center;
@@ -95,28 +99,30 @@ section{
 }
 
 .team .member{
-    background-color:yellow;
+    background-color:rgb(223, 221, 221);
     margin: 5px;
     margin-bottom: 50px;
     width: 300px;
-    height: 300px;
+    height: 250px;
     line-height: 20px;
     color: rgb(0, 0, 0);
     position: relative;
 }
 
 .team .member h3{
-    color: red;
+    color: brown;
     margin-top: 60px;
     font-size: 25px;
     margin-bottom: 20px;
 }
 
-.team .member p.role{
-    color: red;
-    text-transform: uppercase;
-    margin-bottom: 10px;
+.member a{
+    color: blue;
 }
+.member a:hover{
+    color: red;
+}
+
 .team .member .image{
     width: 100px;
     height: 100px;
@@ -125,7 +131,7 @@ section{
     top: -50px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: yellow;
+    background-color: rgb(223, 221, 221);
 }
 .team .member .image img{
     height: 100px;
@@ -133,4 +139,3 @@ section{
     border-radius: 50px;
     padding: 10px;
 }
-
