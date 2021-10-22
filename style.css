@@ -28,7 +28,7 @@ header{
     width: 100%;
     display:-webkit-inline-flex ;
     justify-content: space-between;
-    padding-left: 1100px;
+    padding-left: 1055px;
     align-items: center;
     position: fixed;
     z-index: 999;
@@ -41,7 +41,7 @@ header{
 #menu li{
     list-style: none;
     display: inline-block;
-    margin: 10px;
+    margin: 5px;
 }
 
 #menu li a{
@@ -57,30 +57,21 @@ header{
 section{
     width: 100%;
     float: left;
-    height: 100vh;
+    height: 120vh;
     position: relative;
 }
-
-.text{
-    background-color: seagreen;
-    width: 100px;
-    height: 100px;
-    margin: 30px;
-    text-align: center;
-    color: pink;
-}
-
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+h1{
+    font-family: cursive;
+}
 .container h1{
     color: black;
     margin-top: 50px;
-    font-family: cursive;
     font-size: 52px;
     margin-bottom: 60px;
     text-align: center;
@@ -108,17 +99,24 @@ section{
     color: rgb(0, 0, 0);
     position: relative;
 }
-
+img{
+    height:"120px"; 
+    border-radius:"60px";
+}
 .team .member h3{
     color: brown;
     margin-top: 60px;
     font-size: 25px;
     margin-bottom: 20px;
 }
+#home h1{
+    font-size: 50px;
+}
 
 .member a{
     color: blue;
 }
+
 .member a:hover{
     color: red;
 }
@@ -138,4 +136,53 @@ section{
     width: 100px;
     border-radius: 50px;
     padding: 10px;
+}
+#home p{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.ocr{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+}
+#ourIdea p{
+    font-size: 30px;
+    text-align: center;
+}
+#liabraries h2{
+    margin-top: 50px;
+    text-align: center;
+}
+
+#liabraries h3{
+    font-size: 25px;
+    margin-left: 40px;
+    color: red;
+}
+.lia-image{
+    margin-left: 50px;
+}
+.lia{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+}
+#liabraries a{
+    color: blue;
+}
+#liabraries a:hover{
+    color: red;
+}
+.lia{
+    text-align: center;
+    justify-content: center;
+}
+.lia .lia-name{
+    margin-left: 350px;
+    background-color: white;
+    width: 800px;
+    height: 350px;
 }
