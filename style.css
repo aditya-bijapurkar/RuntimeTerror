@@ -57,8 +57,9 @@ header{
 section{
     width: 100%;
     float: left;
-    height: 120vh;
+    height: 135vh;
     position: relative;
+    background-color: white;
 }
 
 *{
@@ -77,10 +78,10 @@ h1{
     text-align: center;
 }
 
-section{
-    background-color: white;
-}
 
+#liabraries{
+    height: 210vh;
+}
 
 .team{
     display: flex;
@@ -141,6 +142,7 @@ img{
     margin-left: 100px;
     margin-right: 100px;
 }
+
 .ocr{
     display: block;
     margin-left: auto;
@@ -161,6 +163,7 @@ img{
     margin-left: 40px;
     color: red;
 }
+
 .lia-image{
     margin-left: 50px;
 }
@@ -170,10 +173,10 @@ img{
     position: absolute;
     color: rgb(0, 0, 0);
 }
-#liabraries a{
+a{
     color: blue;
 }
-#liabraries a:hover{
+a:hover{
     color: red;
 }
 .lia{
@@ -185,4 +188,47 @@ img{
     background-color: white;
     width: 800px;
     height: 350px;
+}
+#AboutUs{
+    height: 100vh;
+}
+
+.container .lia .lia-name h3{
+    padding-right: 30px;
+}
+#ourIdea{
+    height: 285vh;
+}
+#ourIdea h1{
+    font-size: 40px;
+}
+
+#ourIdea h2{
+    color: red;
+    text-align: center;
+}
+
+#ourIdea .id-name{
+    margin-left: 150px;
+    width: 1200px;
+}
+
+#ourIdea p{
+    font-size: 16px;
+}
+
+#ourIdea .text{
+    font-size: 20px;
+    color: violet;
+}
+
+#ourIdea .id-img{
+    display: block;
+    margin-left: 400px;
+}
+
+
+h4{
+    color: green;
+    text-align: center;
 }
