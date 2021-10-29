@@ -15,7 +15,7 @@
             <ul id="menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#ourIdea">Our Idea</a></li>
-                <li><a href="#liabraries">Liabraries Used</a></li>
+                <li><a href="#liabraries">Libraries Used</a></li>
                 <li><a href="#AboutUs">About Us</a></li>
             </ul>
         </header>
@@ -25,15 +25,55 @@
             Hindi OCR is basically a model which is used to recognize handwritten Hindi (Devanagari) characters.</p><br><br>
         <img class="ocr" src="images/hindi-ocr-.jpg" alt="OCR" height="250px" width="300px">
         <br><br><p>Hindi (हिन्दी) is an Indo-Aryan language, and it is the first most spoken in northern India and official language together with English in Government of India. Hindi arose as a form of Sanskrit and emerged in the 7th century. It is related to Standard Urdu except for some differences in vocabulary. It is also understood easily in Bangladesh, Pakistan and Nepal. Furthermore, Persian and Arabic influence can be easily seen in the Hindi language through significant similar features. Hindi is written in Devanagari script, and vocabulary mostly contains Sanskrit words.</p>
-        <br><p>The Devanagari script comprises of 33 consonants, and 11 vowels and letters have round shapes within square outlines.</p>
+        <br><p>The Devanagari script comprises of 47 primary alphabets, 14 vowels, 33 consonants, and 10 digits which have round shapes within square outlines.</p>
+        <br><img class="ocr" src="images/devnagri.png" alt="devnagri" height="200px">
     </section>
-    <section id="ourIdea"><h1>How our project works</h1>
-        <br><br>
-        <p>ABOUT THE WORKING</p>
+    <section id="ourIdea"><h1>How our project works</h1><br><br><br>
+        <br>
+        <div class="idea">
+            <div class="id-name">
+                <h2>Convolutional neural network </h2><br><br>
+                <p>Computer Vision and pattern recognition is a major growing field in area of image processing. In that Convolutional Neural Network (CNNs) plays major role in computer vision. CNN is working on many applications in Image Classification and it is the core of most Computer Vision and pattern recognition systems today, from automatic tagging of photo in Face books to self-driving cars, recognizes digits, alpha-numerals, traffic signal boards, and the other object class. We used five layered Convolutional Neural Networks (CNN) model. On them one layers for convolutional, one layers for max pooling or sub sampling, one Flatten layer which converts 2D array into 1D array and finally two fully connected layers for classification. The initial layer is convolutional (Conv2D) layer has 32 output mapping and the next max pooling layer has 14 output mapping.</p>
+                <br><br><div class="id-img">
+                    <img src="images/cnn.jpg" alt="cnn" height="200px" width="400px"><br>
+                </div>
+                <div class="text">
+                    <p>The overall structural design of the CNN Model of our proposed system with different layer.</p>
+                </div>
+                <br><br><div class="id-img">
+                    <img src="images/cnn2.jpg" alt="cnn2" height="200px" width="400px"><br>
+                </div>
+                <div class="text"><p>The overall structural design of the CNN Model of our proposed system with different layer.</p></div>
+            </div><br><br><br><br><br>
+            <div class="id-name">
+                <h2>Technique used</h2><br>
+                <p>We have used convolutional neural networks. We are using Tensorflow as the framework and Keras API for providing a high level of abstraction.</p><br><br><br>
+            </div>
+            <div class="id-name">
+                <h2>Our Goals</h2><br>
+                <p>1) Get a proper insight into the target product/element.</p><br>
+                <p>2) Proper classify for a better understanding of the situation about the general public.</p><br>
+                <p>3) Getting real-time classification of images.</p>
+            </div><br><br><br><br>
+            <div class="id-name">
+                <h2>Data Source and Datasets</h2><br>
+                <p>Source: 
+                    number of rows: 720000, number of columns: 1025.<br>
+                    check out the <a href="https://archive.ics.uci.edu/ml/datasets/Devanagari+Handwritten+Character+Dataset">Dataset</a>
+                </p><br><br><br><br> 
+            </div>
+            <h4>Experimental Values/Outcomes:</h4><br>
+            <p>Training Size : 70000 with 8 Epochs<br>
+               Accuracy : 95%<br><br></p>
+            <img class="ocr" src="images/train.jpg" alt="accuracy" height="300px" width="200px">
+            <p>Test Set Size : 2001<br>
+               Accuracy: 92%
+            </p>
+            <img class="ocr" src="images/loss.jpg" alt="loss" height="300px" width="200px">
     </section>
     <section id="liabraries">
         <div class="container">
-            <h1>Liabraries used</h1>
+            <h1>Libraries used</h1>
             <div class="lia">
                 <div class="lia-name">
                     <h3>Tensor Flow</h3><br>
@@ -51,6 +91,22 @@
                     <p>Keras is an open-source software library that provides a Python interface for artificial neural networks. Keras acts as an interface for the TensorFlow library. Up until version 2.3, Keras supported multiple backends, including TensorFlow, Microsoft Cognitive Toolkit, Theano, and PlaidML.</p>
                     <p>check out Keras at <a href="https://keras.io/">Keras</a></p>
                 </div>
+                <div class="lia-name">
+                    <h3>Numpy</h3>
+                    <div class="image">
+                        <img src="images/numpy.png" alt="numpy">
+                    </div><br><br>
+                    <p>NumPy is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.</p>
+                    <p>check out Numpy at <a href="https://numpy.org//">Numpy</a></p>
+                </div>
+                <div class="lia-name">
+                    <h3>Conda</h3>
+                    <div class="image">
+                        <img src="images/conda.png" alt="conda">
+                    </div><br><br>
+                    <p>Conda is an open source package management system and environment management system that runs on Windows, macOS and Linux. It was created for Python programs, but it can package and distribute software for any language. Conda as a package manager helps you find and install packages.</p>
+                    <p>check out Conda at <a href="https://docs.conda.io/en/latest/">Conda</a></p>
+                </div>
             </div>
         </div>
     </section>
@@ -60,7 +116,7 @@
             <div class="team">
                 <div class="member">
                     <div class="image">
-                        <img src="images/Adityapic.jpg" alt="AdityaBijapurkar">
+                        <img src="images/adityapic.jpg" alt="AdityaBijapurkar">
                     </div>
                     <h3>Aditya Bijapurkar</h3>
                     <p>Hi, I'm currently in 2nd year of engineering studying AI and data science.
@@ -111,7 +167,7 @@
                        <img src="images/aniketsinghpic.jpg" alt="AniketSingh">
                     </div>
                     <h3>Aniket Singh</h3>
-                    <p>Hi i am aniket singh currently pursuing B.E from DYPIEMR in the field of AI and Data science. I am interested in field of open source, android development and data science</p>
+                    <p>Hi i am aniket singh currently pursuing B. E from DYPIEMR in the field of AI and Data science. I am interested in field of open source, android development and data science</p>
                 </div>
             </div>
         </div>
